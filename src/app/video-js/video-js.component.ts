@@ -17,7 +17,7 @@ export class VideoJSComponent implements AfterViewInit {
     const options = {
       'sources' : [{
         'src' : this.urlVideo,
-        'type' : 'video/mp4'
+        'type' : 'video/mp4',
         }
       ],
       'poster' : this.urlPoster

@@ -6,11 +6,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { VideoJSComponent } from './video-js/video-js.component';
 import { MatToolbarModule } from '@angular/material';
+import { DetailComponent } from './detail/detail.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VideoJSComponent
+    VideoJSComponent,
+    DetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
